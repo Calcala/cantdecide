@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 
 /*
  * RESET 
@@ -15,9 +16,8 @@ html {
     }
 
 body{
-    background-color: #757575;
+    background-color: #BFD7EA;
     height: 100%;
-    overflow: hidden;
     }
 
 
@@ -25,10 +25,90 @@ body{
     HEADER
             */
 
+.mainHeader {
+    background-color: #0B3954;
+    height: 180px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FEFFFE;
+    padding: 50px 0;
+    }
+
+
+.mainHeader h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    }
+
+.mainHeader h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #E0FF4F
+    }
+
+
 
 /*
-    MAIN MENU
-                */
+    MAIN CONTENT
+                    */
+
+.mainContent {
+    height: 500px;
+    position: relative;
+    }
+
+.mainContent .vsTitle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #393E41;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+    }
+
+.mainContent .inputChoice {
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#393E41;
+    text-align: center;
+    //border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    }
+
+.inputChoice#leftChoice {
+    left:150px;
+    }
+
+.inputChoice#rightChoice {
+    right:150px;
+    }
+
+
+/*
+    Secondary Actions section
+                                */
+
+.subSectionActions {
+    height: 300px;
+    
+    }
+
+
+
+
+
+
+
 
 
 
