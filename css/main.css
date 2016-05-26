@@ -13,10 +13,11 @@
 html {
     min-height: 100%;
     font-family: Raleway, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     }
 
 body{
-    background-color: #BFD7EA;
+    background-color: #D1DAE8;
     height: 100%;
     }
 
