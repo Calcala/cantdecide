@@ -17,7 +17,7 @@ html {
     }
 
 body{
-    background-color: #D1DAE8;
+    background-color: #EEE5E9;
     height: 100%;
     }
 
@@ -27,25 +27,43 @@ body{
             */
 
 .mainHeader {
-    background-color: #0B3954;
+
+    background: #4b6cb7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b6cb7 , #3053A5);
+    background: linear-gradient(to left, #4b6cb7 , #3053A5);
     height: 180px;
     box-sizing: border-box;
     text-align: center;
     color: #FEFFFE;
     padding: 50px 0;
+    position: relative;
     }
+
+    .mainHeader:after {
+        content: '';
+        width: 100%;
+        height:10px;
+        background: #4b6cb7; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #4b6cb7 , #3053A5);
+        background: linear-gradient(to left, #4b6cb7 , #3053A5);
+        border-bottom-left-radius:50%;
+        border-bottom-right-radius:50%;
+        position: absolute;
+        top:180px;
+        left: 0;
+        }
 
 
 .mainHeader h1 {
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 10px;
     letter-spacing: 1px;
     }
 
 .mainHeader h2 {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 100;
     letter-spacing: 2px;
     color: #E0FF4F
     }
@@ -59,7 +77,7 @@ body{
 .mainContent {
     position: relative;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 80px;
     }
 
 .mainContent .vsTitle {
@@ -74,11 +92,11 @@ body{
     width: 420px;
     height: 80px;
     padding: 10px;
-    line-height: 100px;
+    line-height: 80px;
     font-size: 35px;
     font-weight: 700;
-    margin: 0 30px;
-    color:#393E41;
+    margin: 10px 30px;
+    color:#08415C;
     text-align: center;
     text-transform: uppercase;
     display: inline-block;
