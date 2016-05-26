@@ -56,43 +56,34 @@ body{
                     */
 
 .mainContent {
-    height: 500px;
     position: relative;
+    text-align: center;
+    padding-top: 90px;
     }
 
 .mainContent .vsTitle {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     color: #393E41;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     text-transform: capitalize;
+    display: inline-block;
     }
 
 .mainContent .inputChoice {
-    width: 400px;
-    height: 100px;
+    width: 420px;
+    height: 80px;
+    padding: 10px;
     line-height: 100px;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
+    margin: 0 30px;
     color:#393E41;
     text-align: center;
-    //border-radius: 10px;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
     }
-
-.inputChoice#leftChoice {
-    left:150px;
-    }
-
-.inputChoice#rightChoice {
-    right:150px;
-    }
-
 
 /*
     Secondary Actions section
